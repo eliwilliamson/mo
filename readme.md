@@ -195,3 +195,15 @@ The second way to use the tool is the optional second param where you can define
 
 ```
 
+### Placeholder
+
+This mixin is used apply cross-browser placeholder styles with ease.
+
+```scss
+input {
+  @include placeholder {
+    color: #444;
+    font-weight: bold;
+  }
+}
+```
